@@ -49,4 +49,39 @@
         <Setter Property="FontSize"
                 Value="20" />
     </Style>
+    <Style Class="FrameRegister"
+           TargetType="Frame">
+        <Setter Property="Margin"
+                Value="0,10,0,10" />
+        <Setter Property="Padding"
+                Value="22,0,0,0" />
+        <Setter Property="HeightRequest"
+                Value="50" />
+        <Setter Property="BorderColor"
+                Value="Black" />
+    </Style>
+    <Style Class="MiniFrameRegister"
+           TargetType="Frame">
+        <Setter Property="Margin"
+                Value="10,0,0,0" />
+        <Setter Property="Padding"
+                Value="15,0,0,0" />
+        <Setter Property="HeightRequest"
+                Value="5" />
+        <Setter Property="WidthRequest"
+                Value="80" />
+        <Setter Property="HorizontalOptions"
+                Value="Start" />
+        <Setter Property="VerticalOptions"
+                Value="Start" />
+        <Setter Property="BorderColor"
+                Value="Transparent" />
+    </Style>
+    <Style Class="EntryRegister"
+           TargetType="Entry">
+        <Setter Property="Margin"
+                Value="0,10,0,0" />
+        <Setter Property="FontSize"
+                Value="15" />
+    </Style>
 </ResourceDictionary>

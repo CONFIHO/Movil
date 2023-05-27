@@ -30,4 +30,14 @@ public partial class Login : ContentPage
         ButtonRegister.BackgroundColor = Colors.Transparent;
         ButtonRegister.TextColor = Colors.Purple;
     }
+
+    private void ButtonRegister_Clicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync($"//{nameof(Register)}");
+    }
+
+    private void ButtonLogin_Clicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync($"//{nameof(Main)}");
+    }
 }

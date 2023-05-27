@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mopups:PopupPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
+             x:Class="Confiho.MVVM.View.NotificationPage"
+             Title="NotificationPage"
+             BackgroundColor="#80000000" CloseWhenBackgroundIsClicked="False">
+    <ScrollView HorizontalOptions="Center"
+                VerticalOptions="Center">
+        <Frame WidthRequest="400"
+               HeightRequest="400"
+                VerticalOptions="Center"
+                BackgroundColor="White"
+                HorizontalOptions="Center">
+            <Grid RowDefinitions="auto, auto, .1*, .4*, .15*, .15*">
+                <Button Text="X"
+                        TextColor="Gray"
+                        HorizontalOptions="End" 
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        Clicked="Button_Clicked"/>
+                <Label Text="Vinculaciones"
+                       FontAttributes="Bold"
+                       Grid.Row="1"
+                       FontSize="18"
+                       Margin="10,0,0,10"/>
+                <Label Text="A continuación verás una lista de las solicitudes que tienes de vinculación de nuevos adminsitradores"
+                       Grid.Row="2"
+                       FontSize="10"
+                       FontAttributes="Italic"/>
+                <CollectionView Grid.Row="3">
+                    
+                </CollectionView>
+                <Button Text="Aceptar todas"
+                        WidthRequest="300"
+                        TextColor="#17A100"
+                        BorderColor="#17A100"
+                        BorderWidth="2"
+                        BackgroundColor="Transparent" 
+                        Padding="0"
+                        Margin="10,10,10,5"
+                        Grid.Row="4"/>
+                <Button Text="Rechazar todas"
+                        WidthRequest="300"
+                        TextColor="#FF6767"
+                        BorderColor="#FF6767"
+                        BorderWidth="2"
+                        BackgroundColor="Transparent" 
+                        Padding="0"
+                        Margin="10,5,10,10"
+                        Grid.Row="5"/>
+            </Grid>
+        </Frame>
+    </ScrollView>
+</mopups:PopupPage>

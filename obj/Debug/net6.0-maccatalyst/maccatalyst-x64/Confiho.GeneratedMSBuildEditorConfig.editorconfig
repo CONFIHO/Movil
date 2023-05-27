@@ -16,11 +16,53 @@ build_metadata.AdditionalFiles.ManifestResourceName = Confiho.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
+[E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/AddCostPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.AddCostPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\AddCostPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\AddCostPage.xaml
+
+[E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\AppShell.xaml
+
+[E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/ChooseRol.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.ChooseRol.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\ChooseRol.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\ChooseRol.xaml
+
 [E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\View\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\View\Login.xaml
+
+[E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/Main.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.Main.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\Main.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\Main.xaml
+
+[E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/NotificationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.NotificationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\NotificationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\NotificationPage.xaml
+
+[E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\Register.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\Register.xaml
+
+[E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/MVVM/View/Stadistics.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Confiho.MVVM.View.Stadistics.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\View\Stadistics.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\View\Stadistics.xaml
 
 [E:/Usuarios/user/Escritorio/Cursos Programacion/Confiho/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

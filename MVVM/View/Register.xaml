@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Confiho.MVVM.View.Register"
+             Title="Register"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout Padding="20">
+        <Frame HasShadow="True"
+               Padding="40">
+            <Grid RowDefinitions="auto, .2*, .2*, .2*, .2*, .25*, .2*, .2*, .3*">
+                <Label Text="Completa tu registro"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       Grid.Row="0" 
+                       Margin="0,20,0,30"/>
+                
+                <Frame BorderColor="Black"
+                       HeightRequest="50"
+                       Padding="12"
+                       Grid.Row="1"
+                       Margin="0,10,0,10"
+                       BackgroundColor="#F3F3F3">
+                    <Label Text="Administrador"
+                           Margin="10,0,0,0" 
+                           FontSize="15"/>
+                </Frame>
+                <Frame Grid.Row="1"
+                       StyleClass="MiniFrameRegister"
+                       WidthRequest="50">
+                    <Label Text="Rol *"
+                           FontSize="10"/>
+                </Frame>
+                
+                <Frame Grid.Row="2"
+                       StyleClass="FrameRegister">
+                    <Entry StyleClass="EntryResgister"/>
+                </Frame>
+                <Frame Grid.Row="2"
+                       StyleClass="MiniFrameRegister">
+                    <Label Text="Nombres *"
+                           FontSize="10" />
+                </Frame>
+                
+                <Frame Grid.Row="3"
+                       StyleClass="FrameRegister">
+                    <Entry StyleClass="EntryResgister" />
+                </Frame>
+                <Frame Grid.Row="3"
+                       StyleClass="MiniFrameRegister">
+                    <Label Text="Apellidos *"
+                           FontSize="10" />
+                </Frame>
+                
+                <Frame Grid.Row="4"
+                       StyleClass="FrameRegister">
+                    <Entry StyleClass="EntryResgister" />
+                </Frame>
+                <Frame Grid.Row="4"
+                       StyleClass="MiniFrameRegister"
+                       WidthRequest="130">
+                    <Label Text="Correo electronico *"
+                           FontSize="10" />
+                </Frame>
+                
+                <Label Grid.Row="5" LineBreakMode="WordWrap" Margin="0,15,0,25">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Recuerde que:   "
+                                  FontAttributes="Bold" 
+                                  TextColor="Red"/>
+                            <Span Text="Tu  contraseña  debe  tener  entre  8  y  15  caracteres  y  debe  poseer  las siguientes  especificaciones  :   1)   al   menos   un" />
+                            <Span Text=" numero. "
+                                  FontAttributes="Bold" />
+                            <Span Text="2)  al  menos  un" />
+                            <Span Text=" Caracter  especial. "
+                                  FontAttributes="Bold" />
+                            <Span Text="3) al menos una" />
+                            <Span Text=" mayúscula. "
+                                  FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Frame Grid.Row="6"
+                       StyleClass="FrameRegister">
+                    <Grid ColumnDefinitions=".8*, .2*">
+                        <Entry StyleClass="EntryResgister"
+                               IsPassword="True" 
+                               x:Name="epassword"/>
+                        <ImageButton Source="icon_pass2.svg" 
+                                     Clicked="ImageButton_Clicked"
+                                     HeightRequest="20"
+                                     Grid.Column="1"/>
+                    </Grid>
+                </Frame>
+                <Frame Grid.Row="6"
+                       StyleClass="MiniFrameRegister"
+                       WidthRequest="95">
+                    <Label Text="Contraseña *"
+                           FontSize="10" />
+                </Frame>
+                
+                <Frame Grid.Row="7"
+                       StyleClass="FrameRegister">
+                    <Grid ColumnDefinitions=".8*, .2*">
+                        <Entry StyleClass="EntryResgister"
+                               IsPassword="True"
+                               x:Name="econfpassword" />
+                        <ImageButton Source="icon_pass2.svg"
+                                     Clicked="ImageButton_Clicked_1"
+                                     HeightRequest="20"
+                                     Grid.Column="1" />
+                    </Grid>
+                </Frame>
+                <Frame Grid.Row="7"
+                       StyleClass="MiniFrameRegister"
+                       WidthRequest="150">
+                    <Label Text="Repite la Contraseña *"
+                           FontSize="10" />
+                </Frame>
+                <HorizontalStackLayout Grid.Row="8"
+                                       Spacing="20"
+                                       HorizontalOptions="Center"
+                                       Margin="0,30,0,0">
+                    <Button Text="Volver" 
+                            WidthRequest="150"
+                            TextColor="#FF6767"
+                            BorderColor="#FF6767"
+                            BorderWidth="2"
+                            BackgroundColor="Transparent"
+                            Clicked="Button_Clicked"/>
+                    <Button Text="Registrarme"
+                            WidthRequest="150"
+                            TextColor="#17A100"
+                            BorderColor="#17A100"
+                            BorderWidth="2"
+                            BackgroundColor="Transparent"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
