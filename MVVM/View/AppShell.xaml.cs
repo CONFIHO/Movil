@@ -1,3 +1,4 @@
+using Confiho.Services;
 using Mopups.Services;
 
 namespace Confiho.MVVM.View;
@@ -7,7 +8,7 @@ public partial class AppShell : Shell
 	public AppShell()
 	{
 		InitializeComponent();
-
+        BindingContext = SessionService.getInstance();
 		Routing.RegisterRoute(nameof(Main), typeof(Main));
 	}
 

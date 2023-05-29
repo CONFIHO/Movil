@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <mopups:PopupPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
-             x:Class="Confiho.MVVM.View.AddCostPage"
-             Title="AddCostPage"
-             BackgroundColor="#80000000"
-             CloseWhenBackgroundIsClicked="False">
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
+                  xmlns:converters="clr-namespace:Confiho.Converters"
+                  x:Class="Confiho.MVVM.View.AddCostPage"
+                  Title="AddCostPage"
+                  BackgroundColor="#80000000"
+                  CloseWhenBackgroundIsClicked="False">
     <ScrollView HorizontalOptions="Center"
                 VerticalOptions="Center">
         <Frame WidthRequest="400"
-               HeightRequest="400"
+               HeightRequest="480"
                VerticalOptions="Center"
                BackgroundColor="White"
-               HorizontalOptions="Center">
-            <Grid RowDefinitions="auto, auto, .1*, .4*, .15*, .15*">
+               HorizontalOptions="Center"
+               Padding="20,5,20,5"
+               HasShadow="True">
+            <Grid RowDefinitions="auto, auto, auto, auto, auto, auto, .15*, .15*">
                 <Button Text="X"
                         TextColor="Gray"
                         HorizontalOptions="End"
@@ -22,7 +25,99 @@
                         FontSize="20"
                         FontAttributes="Bold"
                         Clicked="Button_Clicked" />
-                
+                <Label Text="Nuevo gasto"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       Grid.Row="1" />
+                <Label Grid.Row="2"
+                       Margin="0,0,0,10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="A continuación registrarás un nuevo gasto para el presupuesto de "
+                                  FontAttributes="Italic" />
+                            <Span Text="{Binding Admin}" 
+                                  FontAttributes="Italic"
+                                  TextColor="#677FFF"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Frame Grid.Row="3"
+                       StyleClass="FrameRegister">
+                    <Picker Title="Seleccione una"
+                            SelectedItem="{Binding Gasto.Type, Mode=TwoWay}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Alimentacion</x:String>
+                                <x:String>Estudio</x:String>
+                                <x:String>Hogar</x:String>
+                                <x:String>Ropa</x:String>
+                                <x:String>Personal</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+                <Frame Grid.Row="3"
+                       StyleClass="MiniFrameRegister">
+                    <Label Text="Categoria *"
+                           FontSize="10" />
+                </Frame>
+                <Frame Grid.Row="4"
+                       StyleClass="FrameRegister">
+                    <Entry StyleClass="EntryResgister" 
+                           Placeholder="Digita una descripcion para el gasto"
+                           Text="{Binding Gasto.Description}"/>
+                </Frame>
+                <Frame Grid.Row="4"
+                       StyleClass="MiniFrameRegister"
+                       WidthRequest="100">
+                    <Label Text="Descripcion *"
+                           FontSize="10"/>
+                </Frame>
+                <Frame Grid.Row="5"
+                       StyleClass="FrameRegister">
+                    <Grid ColumnDefinitions="auto, .9*">
+                        <Label Text="$. " 
+                               Margin="0,10,0,0"
+                               FontSize="16"/>
+                        <Entry StyleClass="EntryResgister"
+                               Grid.Column="1"
+                               Placeholder="0.0"
+                               Text="{Binding Gasto.Value}"
+                               Keyboard="Numeric" />
+                    </Grid>
+                </Frame>
+                <Frame Grid.Row="5"
+                       StyleClass="MiniFrameRegister"
+                       WidthRequest="70">
+                    <Label Text="Monto *"
+                           FontSize="10"/>
+                </Frame>
+                <Grid Grid.Row="6" ColumnDefinitions="*, *"
+                      RowDefinitions="*,*">
+                    <Label Text="Archivo Adjunto"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"/>
+                    <Button Text="Seleccionar archivo"
+                            BackgroundColor="Transparent"
+                            TextColor="Black"
+                            BorderColor="Black" 
+                            BorderWidth="1"
+                            Grid.Column="1"
+                            HeightRequest="30"
+                            Padding="0"
+                            Clicked="Button_Clicked_1Async"/>
+                    <Label x:Name="FilePathEntry"
+                           Grid.ColumnSpan="2"
+                           Grid.Row="1"/>
+                </Grid>
+                <Button Text="Registrar"
+                        Grid.Row="7"
+                        HeightRequest="45"
+                        TextColor="#17A100"
+                        BorderColor="#17A100"
+                        BorderWidth="2"
+                        BackgroundColor="Transparent" />
             </Grid>
         </Frame>
     </ScrollView>

@@ -8,6 +8,7 @@
     <ContentPage.Resources>
         <converters:ColorConverter x:Key="ColorConverter" />
         <converters:IconConverter x:Key="IconConverter" />
+        <converters:TypeConverter x:Key="TypeConverter" />
     </ContentPage.Resources>
     <CollectionView ItemsSource="{Binding presupuestos}"
                     ItemsLayout="HorizontalList"
@@ -30,7 +31,7 @@
                                             <Span Text="Presupuesto "
                                                   FontSize="20"
                                                   FontAttributes="Bold" />
-                                            <Span Text="{Binding Admin}"
+                                            <Span Text="{Binding admin_nickname}"
                                                   FontSize="20"
                                                   TextColor="#5107AF"
                                                   FontAttributes="Bold" />
@@ -53,13 +54,13 @@
                                        Grid.Row="2">
                                     <Label.FormattedText>
                                         <FormattedString>
-                                            <Span Text="{Binding Current, StringFormat='${0:N0}'}"
+                                            <Span Text="{Binding budget_history.current_consumption, StringFormat='${0:N0}'}"
                                                   FontAttributes="Bold"
                                                   FontSize="17"
                                                   TextColor="{Binding Percentaje, Converter={StaticResource ColorConverter}}" />
                                             <Span Text=" de "
                                                   FontSize="17" />
-                                            <Span Text="{Binding Total, StringFormat='${0:N0}'}"
+                                            <Span Text="{Binding budget_history.value, StringFormat='${0:N0}'}"
                                                   FontAttributes="Bold"
                                                   FontSize="17" />
                                         </FormattedString>
@@ -79,27 +80,27 @@
                                 </Label.FormattedText>
                             </Label>
                             <CollectionView Grid.Row="3"
-                                            ItemsSource="{Binding Gastos}"
+                                            ItemsSource="{Binding budget_history.expense}"
                                             Margin="0,5,0,0">
                                 <CollectionView.ItemTemplate>
                                     <DataTemplate>
-                                        <Grid ColumnDefinitions=".1*, .5*, .3*, .1*"
+                                        <Grid ColumnDefinitions=".07*, .4*, .43*, .1*"
                                               Padding="10,0,0,0"
-                                              ColumnSpacing="10">
+                                              ColumnSpacing="5">
                                             <Image Source="icon_coin.svg"
                                                    HeightRequest="25" />
                                             <VerticalStackLayout Grid.Column="1"
                                                                  HorizontalOptions="Center">
-                                                <Label Text="{Binding Description}" />
-                                                <Label Text="{Binding Value, StringFormat='${0:N0}'}"
+                                                <Label Text="{Binding description}" />
+                                                <Label Text="{Binding value, StringFormat='${0:N0}'}"
                                                        TextColor="#5107AF"
                                                        FontAttributes="Bold" />
                                             </VerticalStackLayout>
                                             <HorizontalStackLayout Grid.Column="2"
                                                                    Spacing="10"
-                                                                   HorizontalOptions="Center">
-                                                <Image Source="{Binding Type, Converter={StaticResource IconConverter}}" />
-                                                <Label Text="{Binding Type}"
+                                                                   HorizontalOptions="Start">
+                                                <Image Source="{Binding category_id, Converter={StaticResource IconConverter}}" />
+                                                <Label Text="{Binding category_id, Converter={StaticResource TypeConverter}}"
                                                        TextColor="#5107AF" 
                                                        VerticalTextAlignment="Center"/>
                                             </HorizontalStackLayout>
@@ -118,12 +119,15 @@
                                     BorderWidth="2"
                                     BackgroundColor="Transparent" 
                                     Margin="0,15,0,15"
-                                    Padding="0"/>
+                                    Padding="0"
+                                    Clicked="Button_Clicked"/>
                         </Grid>
                     </Frame>
                     <Frame Grid.Row="1"
                            HasShadow="True">
-                        <Label Text="Aqui va grafica de barras" />
+                        <Grid>
+                            
+                        </Grid>
                     </Frame>
                 </Grid>
             </DataTemplate>

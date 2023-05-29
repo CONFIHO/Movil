@@ -15,8 +15,9 @@
                 <HorizontalStackLayout Spacing="15">
                     <Image Source="user_solid.svg"
                            WidthRequest="25" />
-                    <Entry Placeholder="Nombre de Usuario"
-                           StyleClass="EntryForm" />
+                    <Entry Placeholder="Email"
+                           StyleClass="EntryForm" 
+                           Text="{Binding email}"/>
                 </HorizontalStackLayout>
                 <BoxView Color="Gray"
                          HeightRequest="1" />
@@ -27,7 +28,8 @@
                            WidthRequest="25" />
                     <Entry Placeholder="Contraseña"
                            StyleClass="EntryForm" 
-                           IsPassword="True"/>
+                           IsPassword="True"
+                           Text="{Binding password}"/>
                 </HorizontalStackLayout>
                 <BoxView Color="Gray"
                          HeightRequest="1" />
@@ -40,7 +42,7 @@
                         x:Name="ButtonLogin"
                         Pressed="Button_Pressed"
                         Released="ButtonLogin_Released"
-                        Clicked="ButtonLogin_Clicked"/>
+                        Command="{Binding AuthenticationCommand}"/>
             </Frame>
             <Frame BorderColor="Purple"
                    StyleClass="FrameButtonLogin">

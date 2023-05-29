@@ -1,3 +1,5 @@
+using Confiho.MVVM.ViewModel;
+
 namespace Confiho.MVVM.View;
 
 public partial class Login : ContentPage
@@ -5,6 +7,7 @@ public partial class Login : ContentPage
 	public Login()
 	{
 		InitializeComponent();
+        BindingContext = new LoginVM();
 	}
 
     private void Button_Pressed(object sender, EventArgs e)
@@ -33,11 +36,6 @@ public partial class Login : ContentPage
 
     private void ButtonRegister_Clicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync($"//{nameof(Register)}");
-    }
-
-    private void ButtonLogin_Clicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync($"//{nameof(Main)}");
+        Shell.Current.GoToAsync($"//{nameof(ChooseRol)}");
     }
 }

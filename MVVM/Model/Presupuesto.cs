@@ -8,19 +8,21 @@ namespace Confiho.MVVM.Model
 {
     public class Presupuesto
     {
-        public string Admin { get; set; }
-
-        public double Current { get; set; }
-
-        public double Total { get; set; }
-        
-        public List<Gasto> Gastos { get; set; }
-
+        public int id { get; set; }
+        public int consumer_id { get; set; }
+        public int admin_id { get; set; }
+        public string consumer_nickname { get; set; }
+        public string admin_nickname { get; set; }
+        public DateTime create_at { get; set; }
+        public string status { get; set; }
+        public Budget budget_history { get; set; }
         public double Percentaje {
             get
             {
-                return Current * 100 / Total;
+                return budget_history.current_consumption * 100 / budget_history.value;
             }
         }
+
+        public List<CostType> percentages { get; set; }
     }
 }

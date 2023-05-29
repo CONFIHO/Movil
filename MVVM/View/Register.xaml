@@ -23,7 +23,7 @@
                        Grid.Row="1"
                        Margin="0,10,0,10"
                        BackgroundColor="#F3F3F3">
-                    <Label Text="Administrador"
+                    <Label Text="{Binding Rol}"
                            Margin="10,0,0,0" 
                            FontSize="15"/>
                 </Frame>
@@ -36,7 +36,8 @@
                 
                 <Frame Grid.Row="2"
                        StyleClass="FrameRegister">
-                    <Entry StyleClass="EntryResgister"/>
+                    <Entry StyleClass="EntryResgister"
+                           Text="{Binding FirstName}"/>
                 </Frame>
                 <Frame Grid.Row="2"
                        StyleClass="MiniFrameRegister">
@@ -46,7 +47,8 @@
                 
                 <Frame Grid.Row="3"
                        StyleClass="FrameRegister">
-                    <Entry StyleClass="EntryResgister" />
+                    <Entry StyleClass="EntryResgister"
+                           Text="{Binding LastName}"/>
                 </Frame>
                 <Frame Grid.Row="3"
                        StyleClass="MiniFrameRegister">
@@ -56,7 +58,8 @@
                 
                 <Frame Grid.Row="4"
                        StyleClass="FrameRegister">
-                    <Entry StyleClass="EntryResgister" />
+                    <Entry StyleClass="EntryResgister" 
+                           Text="{Binding Email}"/>
                 </Frame>
                 <Frame Grid.Row="4"
                        StyleClass="MiniFrameRegister"
@@ -89,7 +92,8 @@
                     <Grid ColumnDefinitions=".8*, .2*">
                         <Entry StyleClass="EntryResgister"
                                IsPassword="True" 
-                               x:Name="epassword"/>
+                               x:Name="epassword"
+                               Text="{Binding Password}"/>
                         <ImageButton Source="icon_pass2.svg" 
                                      Clicked="ImageButton_Clicked"
                                      HeightRequest="20"
@@ -108,7 +112,8 @@
                     <Grid ColumnDefinitions=".8*, .2*">
                         <Entry StyleClass="EntryResgister"
                                IsPassword="True"
-                               x:Name="econfpassword" />
+                               x:Name="econfpassword"
+                               Text="{Binding ConfPass}"/>
                         <ImageButton Source="icon_pass2.svg"
                                      Clicked="ImageButton_Clicked_1"
                                      HeightRequest="20"
@@ -137,7 +142,8 @@
                             TextColor="#17A100"
                             BorderColor="#17A100"
                             BorderWidth="2"
-                            BackgroundColor="Transparent"/>
+                            BackgroundColor="Transparent"
+                            Command="{Binding AddUserCommand}"/>
                 </HorizontalStackLayout>
             </Grid>
         </Frame>

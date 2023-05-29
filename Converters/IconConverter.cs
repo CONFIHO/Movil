@@ -11,19 +11,19 @@ namespace Confiho.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            var data = value as string;
+            var data = (int)value;
 
             switch (data)
             {
-                case "Ropa":
+                case 4:
                     return "icon_clothes.svg";
-                case "Personal":
+                case 5:
                     return "icon_personal.svg";
-                case "Hogar":
+                case 3:
                     return "icon_home.svg";
-                case "Comida":
+                case 1:
                     return "icon_food.svg";
-                case "Estudio":
+                case 2:
                     return "icon_study.svg";
                 default:
                     return null;

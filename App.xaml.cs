@@ -1,5 +1,6 @@
 ﻿using Confiho.MVVM.View;
 
+
 namespace Confiho;
 
 public partial class App : Application
@@ -11,4 +12,5 @@ public partial class App : Application
 
 		MainPage = new AppShell();
 	}
+
 }

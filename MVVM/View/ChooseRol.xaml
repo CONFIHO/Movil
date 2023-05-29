@@ -9,7 +9,8 @@
                              VerticalOptions="Center"
                              HorizontalOptions="Start"
                              Margin="20">
-            <ImageButton Source="icon_consu.svg" />
+            <ImageButton Source="icon_consu.svg"
+                         Clicked="ImageButton_Clicked"/>
             <Label Text="Consumidor"
                    FontSize="30"/>
         </VerticalStackLayout>
@@ -17,7 +18,8 @@
                              HorizontalOptions="End"
                              VerticalOptions="Center"
                              Margin="20">
-            <ImageButton Source="icon_admin.svg" />
+            <ImageButton Source="icon_admin.svg" 
+                         Clicked="ImageButton_Clicked_1"/>
             <Label Text="Administrador"
                    FontSize="30" 
                    TextColor="White"/>

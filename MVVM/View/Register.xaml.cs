@@ -1,11 +1,28 @@
-namespace Confiho.MVVM.View;
+using Confiho.MVVM.ViewModel;
 
+namespace Confiho.MVVM.View;
+[QueryProperty(nameof(RolName), "rolName")]
 public partial class Register : ContentPage
 {
-	public Register()
+    string rolName;
+    public string RolName
+    {
+        get => rolName;
+        set
+        {
+            rolName = value;
+            OnPropertyChanged();
+            var x = BindingContext as RegisterVM;
+            x.Rol = rolName;
+        }
+    }
+
+    public Register()
 	{
 		InitializeComponent();
+        BindingContext = new RegisterVM();
 	}
+    
 
     private void ImageButton_Clicked(object sender, EventArgs e)
     {
@@ -21,4 +38,5 @@ public partial class Register : ContentPage
     {
         Shell.Current.GoToAsync($"//{nameof(Login)}");
     }
+
 }
