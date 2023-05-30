@@ -125,8 +125,43 @@
                     </Frame>
                     <Frame Grid.Row="1"
                            HasShadow="True">
-                        <Grid>
-                            
+                        <Grid RowDefinitions=".15*, .75*, .1*">
+                            <Label Text="Gastos Por Categoria"
+                                   FontSize="18"
+                                   FontAttributes="Bold"/>
+                            <CollectionView Grid.Row="1"
+                                            ItemsSource="{Binding budget_history.percentages}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid ColumnDefinitions=".15*, .85*"
+                                              Margin="5,5,20,5"
+                                              HeightRequest="33">
+                                            <Image Source="{Binding category_id, Converter={StaticResource IconConverter}}" />
+                                            <control:SfLinearProgressBar Progress="{Binding percentage}"
+                                                                         Grid.Column="1"
+                                                                         ProgressHeight="25"
+                                                                         TrackHeight="25"
+                                                                         TrackCornerRadius="10"
+                                                                         ProgressCornerRadius="10"
+                                                                         ProgressFill="{Binding percentage, Converter={StaticResource ColorConverter}}"/>
+                                            <Label Text="{Binding percentage, StringFormat='{0:0.0}%'}"
+                                                   Grid.ColumnSpan="2"
+                                                   HorizontalOptions="Center"
+                                                   FontAttributes="Bold"
+                                                   Margin="80,0,0,0"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                            <Button Text="Ver mas"
+                                    Grid.Row="2"
+                                    WidthRequest="150"
+                                    Padding="0"
+                                    TextColor="#5107AF"
+                                    BorderColor="#5107AF"
+                                    BorderWidth="2"
+                                    BackgroundColor="Transparent"
+                                    Clicked="Button_Clicked_1"/>
                         </Grid>
                     </Frame>
                 </Grid>

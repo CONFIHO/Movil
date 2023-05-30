@@ -22,7 +22,5 @@ namespace Confiho.MVVM.Model
                 return budget_history.current_consumption * 100 / budget_history.value;
             }
         }
-
-        public List<CostType> percentages { get; set; }
     }
 }

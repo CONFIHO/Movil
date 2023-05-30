@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BRrXnvGqIoGyrcnrxP+8NkHuOgbNqqEeb4vVEp44SqZihds6iNRBY4nbeAGlTZUH9xcf4Zy4PYvQTZdIqxKHkQ==",
+  "dgSpecHash": "lyZ0XPhKjS8ShEUXl5SdctwsV8TmUKMs1X8CzVTok/L9iLj034YCce3kydvZnDSJXiF1xj6ZAIgJ+JPcCDA87g==",
   "success": true,
   "projectFilePath": "E:\\Usuarios\\user\\Escritorio\\Cursos Programacion\\Confiho\\Confiho.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mopups\\1.0.4\\mopups.1.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\propertychanged.fody\\4.1.0\\propertychanged.fody.4.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.maui.charts\\20.4.48\\syncfusion.maui.charts.20.4.48.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\syncfusion.maui.core\\21.2.5\\syncfusion.maui.core.21.2.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\syncfusion.maui.progressbar\\21.2.5\\syncfusion.maui.progressbar.21.2.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

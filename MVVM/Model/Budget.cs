@@ -15,5 +15,6 @@ namespace Confiho.MVVM.Model
         public double current_consumption { get; set; }
         public int budget_id { get; set; }
         public List<Gasto> expense { get; set; }
+        public List<CostType> percentages { get; set; }
     }
 }

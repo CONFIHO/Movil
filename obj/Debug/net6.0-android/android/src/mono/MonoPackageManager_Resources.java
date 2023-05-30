@@ -21,6 +21,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Graphics.dll",
 		"Mopups.dll",
 		"PropertyChanged.dll",
+		"Syncfusion.Maui.Charts.dll",
 		"Syncfusion.Licensing.dll",
 		"Syncfusion.Maui.Core.dll",
 		"Syncfusion.Maui.ProgressBar.dll",

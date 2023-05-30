@@ -11,7 +11,7 @@ namespace Confiho.Services
     {
         public HttpClient client;
         public JsonSerializerOptions _serializerOptions;
-        public string baseUrl = "http://192.168.20.22:8080/api";
+        public string baseUrl = "http://20.169.252.136:8080/api";
 
         private static Credentials _instance = null;
 

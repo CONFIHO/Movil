@@ -83,6 +83,10 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[20.4.48, )"
+            },
             "Syncfusion.Maui.ProgressBar": {
               "target": "Package",
               "version": "[21.2.5, )"
@@ -201,6 +205,10 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[20.4.48, )"
+            },
             "Syncfusion.Maui.ProgressBar": {
               "target": "Package",
               "version": "[21.2.5, )"
@@ -299,6 +307,10 @@
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[20.4.48, )"
             },
             "Syncfusion.Maui.ProgressBar": {
               "target": "Package",
@@ -405,6 +417,10 @@
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[20.4.48, )"
             },
             "Syncfusion.Maui.ProgressBar": {
               "target": "Package",

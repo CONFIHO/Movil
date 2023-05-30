@@ -248,6 +248,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -2274,6 +2290,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -4304,6 +4336,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -6330,6 +6378,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -8360,6 +8424,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -10386,6 +10466,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -12416,6 +12512,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -14444,6 +14556,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -16451,6 +16579,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -16750,6 +16894,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -17053,6 +17213,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -17352,6 +17528,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -17655,6 +17847,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -17954,6 +18162,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -18257,6 +18481,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -18556,6 +18796,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -18858,6 +19114,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -19156,6 +19428,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -19458,6 +19746,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -19756,6 +20060,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -20058,6 +20378,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -20356,6 +20692,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -20658,6 +21010,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -20956,6 +21324,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -21391,6 +21775,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -21786,6 +22186,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -22185,6 +22601,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -22580,6 +23012,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -22979,6 +23427,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -23376,6 +23840,22 @@
           "build/PropertyChanged.Fody.props": {}
         }
       },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "Syncfusion.Maui.Core/21.2.5": {
         "type": "package",
         "compile": {
@@ -23771,6 +24251,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -24174,6 +24670,22 @@
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/20.4.48": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "20.4.48"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "Syncfusion.Maui.Core/21.2.5": {
@@ -25418,6 +25930,32 @@
         "propertychanged.fody.nuspec",
         "weaver/PropertyChanged.Fody.dll",
         "weaver/PropertyChanged.Fody.xcf"
+      ]
+    },
+    "Syncfusion.Maui.Charts/20.4.48": {
+      "sha512": "b6Y75bXX7l+B49PBst4qCG2SX8SS7vST1JSdf6uy7/Ey5DaX7sCJarO6hWI4XICztjiiRynpyVcGKLauc53HQA==",
+      "type": "package",
+      "path": "syncfusion.maui.charts/20.4.48",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net6.0/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0/Syncfusion.Maui.Charts.xml",
+        "syncfusion.maui.charts.20.4.48.nupkg.sha512",
+        "syncfusion.maui.charts.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "Syncfusion.Maui.Core/21.2.5": {
@@ -27437,6 +27975,7 @@
       "Microsoft.Maui.Extensions >= 6.0.548",
       "Mopups >= 1.0.4",
       "PropertyChanged.Fody >= 4.1.0",
+      "Syncfusion.Maui.Charts >= 20.4.48",
       "Syncfusion.Maui.ProgressBar >= 21.2.5"
     ],
     "net6.0-ios16.1": [
@@ -27445,6 +27984,7 @@
       "Microsoft.Maui.Extensions >= 6.0.548",
       "Mopups >= 1.0.4",
       "PropertyChanged.Fody >= 4.1.0",
+      "Syncfusion.Maui.Charts >= 20.4.48",
       "Syncfusion.Maui.ProgressBar >= 21.2.5",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
@@ -27454,6 +27994,7 @@
       "Microsoft.Maui.Extensions >= 6.0.548",
       "Mopups >= 1.0.4",
       "PropertyChanged.Fody >= 4.1.0",
+      "Syncfusion.Maui.Charts >= 20.4.48",
       "Syncfusion.Maui.ProgressBar >= 21.2.5",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
@@ -27464,6 +28005,7 @@
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
       "Mopups >= 1.0.4",
       "PropertyChanged.Fody >= 4.1.0",
+      "Syncfusion.Maui.Charts >= 20.4.48",
       "Syncfusion.Maui.ProgressBar >= 21.2.5"
     ]
   },
@@ -27549,6 +28091,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[20.4.48, )"
           },
           "Syncfusion.Maui.ProgressBar": {
             "target": "Package",
@@ -27668,6 +28214,10 @@
             "target": "Package",
             "version": "[4.1.0, )"
           },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[20.4.48, )"
+          },
           "Syncfusion.Maui.ProgressBar": {
             "target": "Package",
             "version": "[21.2.5, )"
@@ -27766,6 +28316,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[20.4.48, )"
           },
           "Syncfusion.Maui.ProgressBar": {
             "target": "Package",
@@ -27872,6 +28426,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[20.4.48, )"
           },
           "Syncfusion.Maui.ProgressBar": {
             "target": "Package",

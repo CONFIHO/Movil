@@ -2,6 +2,7 @@
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\backgraund_lateral.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\base.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_accept.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_admin.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_chart.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_clothes.png
@@ -18,6 +19,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_logout.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_pass.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_pass2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_personal.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_reject.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_study.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\logo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\logo_round.png
@@ -27,6 +29,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\backgraund_choose_rol.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\backgraund_lateral.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\base.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_accept.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_admin.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_chart.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_clothes.png
@@ -43,6 +46,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_logout.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_pass.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_pass2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_personal.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_reject.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_study.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\logo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\logo_round.png
@@ -52,6 +56,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\backgraund_choose_rol.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\backgraund_lateral.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\base.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_accept.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_admin.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_chart.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_clothes.png
@@ -68,6 +73,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_logout.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_pass.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_pass2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_personal.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_reject.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_study.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\logo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\logo_round.png
@@ -77,6 +83,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\backgraund_choose_rol.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\backgraund_lateral.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\base.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_accept.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_admin.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_chart.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_clothes.png
@@ -93,6 +100,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_logout.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_pass.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_pass2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_personal.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_reject.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_study.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\logo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\logo_round.png
@@ -102,6 +110,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\backgraund_choose_rol.pn
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\backgraund_lateral.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\base.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_accept.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_admin.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_chart.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_clothes.png
@@ -118,6 +127,7 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_logout.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_pass.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_pass2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_personal.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_reject.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_study.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\logo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\logo_round.png

@@ -13,7 +13,7 @@ public partial class Main : ContentPage
 	{
 		InitializeComponent();
 
-		BindingContext = new MainVM();
+        BindingContext = App.MainVM;
         if (collectionView.ItemsSource != null)
         {
             presupuestos = collectionView.ItemsSource as IList<Presupuesto>;
@@ -29,6 +29,11 @@ public partial class Main : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-        MopupService.Instance.PushAsync(new AddCostPage(current.admin_nickname));
+        MopupService.Instance.PushAsync(new AddCostPage(current.admin_nickname, current.budget_history.id));
+    }
+
+    private void Button_Clicked_1(object sender, EventArgs e)
+    {
+        MopupService.Instance.PushAsync(new Stadistics(current));
     }
 }

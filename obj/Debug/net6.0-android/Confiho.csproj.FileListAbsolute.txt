@@ -1096,3 +1096,14 @@ E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android
 E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\android\environment.x86_64.o
 E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.o
 E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\android\assets\Syncfusion.Maui.Charts.dll
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_accept.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\icon_reject.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_accept.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\icon_reject.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_accept.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\icon_reject.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_accept.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\icon_reject.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_accept.png
+E:\Usuarios\user\Escritorio\Cursos Programacion\Confiho\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\icon_reject.png

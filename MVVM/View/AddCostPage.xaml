@@ -10,13 +10,13 @@
     <ScrollView HorizontalOptions="Center"
                 VerticalOptions="Center">
         <Frame WidthRequest="400"
-               HeightRequest="480"
+               HeightRequest="550"
                VerticalOptions="Center"
                BackgroundColor="White"
                HorizontalOptions="Center"
                Padding="20,5,20,5"
                HasShadow="True">
-            <Grid RowDefinitions="auto, auto, auto, auto, auto, auto, .15*, .15*">
+            <Grid RowDefinitions="auto, auto, auto, auto, auto, auto, auto, .15*, .15*">
                 <Button Text="X"
                         TextColor="Gray"
                         HorizontalOptions="End"
@@ -44,7 +44,7 @@
                 <Frame Grid.Row="3"
                        StyleClass="FrameRegister">
                     <Picker Title="Seleccione una"
-                            SelectedItem="{Binding Gasto.Type, Mode=TwoWay}">
+                            SelectedIndex="{Binding Gasto.category_id, Mode=TwoWay}">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Alimentacion</x:String>
@@ -65,7 +65,7 @@
                        StyleClass="FrameRegister">
                     <Entry StyleClass="EntryResgister" 
                            Placeholder="Digita una descripcion para el gasto"
-                           Text="{Binding Gasto.Description}"/>
+                           Text="{Binding Gasto.description}"/>
                 </Frame>
                 <Frame Grid.Row="4"
                        StyleClass="MiniFrameRegister"
@@ -82,7 +82,7 @@
                         <Entry StyleClass="EntryResgister"
                                Grid.Column="1"
                                Placeholder="0.0"
-                               Text="{Binding Gasto.Value}"
+                               Text="{Binding Gasto.value}"
                                Keyboard="Numeric" />
                     </Grid>
                 </Frame>
@@ -92,7 +92,17 @@
                     <Label Text="Monto *"
                            FontSize="10"/>
                 </Frame>
-                <Grid Grid.Row="6" ColumnDefinitions="*, *"
+                <Frame Grid.Row="6"
+                       StyleClass="FrameRegister">
+                    <DatePicker Date="{Binding Gasto.date}"/>
+                </Frame>
+                <Frame Grid.Row="6"
+                       StyleClass="MiniFrameRegister"
+                       WidthRequest="70">
+                    <Label Text="Fecha *"
+                           FontSize="10" />
+                </Frame>
+                <Grid Grid.Row="7" ColumnDefinitions="*, *"
                       RowDefinitions="*,*">
                     <Label Text="Archivo Adjunto"
                            FontSize="18"
@@ -112,12 +122,13 @@
                            Grid.Row="1"/>
                 </Grid>
                 <Button Text="Registrar"
-                        Grid.Row="7"
+                        Grid.Row="8"
                         HeightRequest="45"
                         TextColor="#17A100"
                         BorderColor="#17A100"
                         BorderWidth="2"
-                        BackgroundColor="Transparent" />
+                        BackgroundColor="Transparent"
+                        Command="{Binding AddCostCommand}"/>
             </Grid>
         </Frame>
     </ScrollView>

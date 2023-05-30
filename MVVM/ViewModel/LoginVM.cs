@@ -46,7 +46,7 @@ namespace Confiho.MVVM.ViewModel
                                 SessionService.getInstance().Session = data;
                                 email = "";
                                 password = "";
-                                await getPresupuesto();
+                                await App.MainVM.getPresupuesto();
                                 await Shell.Current.GoToAsync($"//{nameof(Main)}");
                             }
                             else
@@ -58,32 +58,5 @@ namespace Confiho.MVVM.ViewModel
                 }
             });
 
-        private async Task<bool> getPresupuesto()
-        {
-            var url = $"{Credentials.getInstance().baseUrl}/budgets/current/{SessionService.getInstance().Session.id}";
-            HttpClient client = new HttpClient();
-            var response = await client.GetAsync(url);
-
-            if (response.StatusCode == System.Net.HttpStatusCode.OK)
-            {
-                using (var responseStream = await response.Content.ReadAsStreamAsync())
-                {
-                    using (var streamReader = new StreamReader(responseStream))
-                    {
-                        string responseBody = await streamReader.ReadToEndAsync();
-                        if (responseBody != "null")
-                        {
-                            ObservableCollection<Presupuesto> data = JsonSerializer.Deserialize<ObservableCollection<Presupuesto>>(responseBody);
-                            PresupuestoService.getInstance().presupuestos = data;
-                        }
-                        else
-                        {
-                            await Application.Current.MainPage.DisplayAlert("Error ;(", "No se encontraron datos", "Ok");
-                        }
-                    }
-                }
-            }
-            return true;
-        }
     }
 }

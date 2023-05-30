@@ -6,10 +6,10 @@ namespace Confiho.MVVM.View;
 
 public partial class AddCostPage
 {
-	public AddCostPage(String Admin)
+	public AddCostPage(String Admin, int id_budget)
 	{
 		InitializeComponent();
-		BindingContext = new AddCostVM(Admin);
+		BindingContext = new AddCostVM(Admin, id_budget);
 	}
 
     private void Button_Clicked(object sender, EventArgs e)
@@ -27,7 +27,8 @@ public partial class AddCostPage
                 // Se seleccionó un archivo
                 string fileName = fileResult.FileName;
                 FilePathEntry.Text = fileName;
-                // Realiza las acciones necesarias con el archivo
+                AddCostVM vm = BindingContext as AddCostVM;
+                vm.Gasto.file_name = fileName;
             }
             else
             {

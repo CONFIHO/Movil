@@ -17,9 +17,10 @@ public partial class AppShell : Shell
 		await Shell.Current.GoToAsync($"//{nameof(Login)}");
     }
 
-    private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
+    private async void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
     {
         Shell.Current.SetValue(Shell.FlyoutIsPresentedProperty, false);
-        MopupService.Instance.PushAsync(new NotificationPage());
+        await App.NotificationVM.getVinculations();
+        await MopupService.Instance.PushAsync(new NotificationPage());
     }
 }

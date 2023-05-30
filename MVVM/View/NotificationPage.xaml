@@ -30,8 +30,29 @@
                        Grid.Row="2"
                        FontSize="10"
                        FontAttributes="Italic"/>
-                <CollectionView Grid.Row="3">
-                    
+                <CollectionView Grid.Row="3"
+                                ItemsSource="{Binding vinculations}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid ColumnDefinitions=".1*, .7*, .1* ,.1*"
+                                  Margin="5">
+                                <Image Source="icon_coin.svg" />
+                                <Label Grid.Column="1">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding user_budget_admin_idTouser.name}"
+                                                  TextColor="#0091B1"/>
+                                            <Span Text=" quiere vincularse contigo." />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <ImageButton Source="icon_accept.svg"
+                                             Grid.Column="2"/>
+                                <ImageButton Source="icon_reject.svg" 
+                                             Grid.Column="3"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
                 </CollectionView>
                 <Button Text="Aceptar todas"
                         WidthRequest="300"
